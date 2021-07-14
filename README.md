@@ -1,16 +1,16 @@
-#Project YouTube Trender
+# Project YouTube Trender
 
-##Introduction
+## Introduction
 On Youtube, users can also add a title and description to the videos and
 by examining the contents of and detecting which words appear frequently across titles and
 descriptions we can detect “trending topics.”
 
-##Purpose
+## Purpose
 to design, implement, test, and document a command line application to analyse
 the results of a YouTube search using the YouTube Data API: e.g. “Trending Topics” of YouTube
 videos.
 
-##Phases
+## Phases
 1. Parse a YouTube video data string in into a YouTube video object
 2. Sort Video objects by different features (e.g. title, channel title, views, date, etc.)
 3. Index the list of videos for word usage across the title and description of the videos, aka “Trending Topics”
@@ -18,7 +18,7 @@ videos.
 5. JUnit Testing
 6. Application description document
 
-##Features
+## Features
 1. Show a list of videos by a json file path that can be choosen from the list or manually type
 2. Show the video details when selecting any video in the list
 3. Sort the video list by criteria including Channel, Date, View, Description length, Like, Dislike, and Comment
