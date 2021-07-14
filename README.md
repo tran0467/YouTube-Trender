@@ -10,7 +10,7 @@ to design, implement, test, and document a command line application to analyse
 the results of a YouTube search using the YouTube Data API: e.g. “Trending Topics” of YouTube
 videos.
 
-##Phases:
+##Phases
 1. Parse a YouTube video data string in into a YouTube video object
 2. Sort Video objects by different features (e.g. title, channel title, views, date, etc.)
 3. Index the list of videos for word usage across the title and description of the videos, aka “Trending Topics”
